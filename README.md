@@ -19,8 +19,8 @@ Mosquitoes are vectors for various diseases, including:
 - **Zika Virus**: Transmitted primarily by Aedes mosquitoes, causing mild symptoms but severe birth defects if contracted during pregnancy.
 - **Malaria**: Caused by Plasmodium parasites transmitted through the bites of infected Anopheles mosquitoes.
 
-The danger of Dengue fever is particularly acute in peripheral areas, where stagnant water and poor sanitation provide ideal breeding grounds for mosquitoes. Using artificial intelligence can facilitate the work of health agents in detecting these breeding grounds and implementing preventive measures. In the beggining of 2024 there has been an outbreak of Dengue and the best strategy to contain the disease is preventing : https://www.cnnbrasil.com.br/nacional/rio-de-janeiro-confirma-sexta-morte-por-dengue-em-2024/ .
-<img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=400&h=220&crop=1" alt="Aedes Aegypti Mosquitoe"/>
+![Aedes Aegypti Mosquitoe](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=400&h=220&crop=1)
+
 ## Project Status
 This project is currently under construction, and there is no framework yet for the detection of all objects. The main focus of this repository is the detection of tires, which are common breeding grounds for mosquitoes.
 

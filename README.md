@@ -1,4 +1,4 @@
-# Mosquitoes Breeding Grounds Detector 🦟
+# Mosquitoes Breeding Grounds Detector 🦟🔎
 
 ## Description
 The MBG detection project is an ongoing work by several computer vision and signal processing researchers from the Federal University of Rio de Janeiro, with contributions from CEFET. It is currently funded by CAPES through master's and doctoral scholarships.

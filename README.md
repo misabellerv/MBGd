@@ -52,7 +52,7 @@ The project includes a dataset called MBG, which contains 13 videos filmed by a 
 
 ---
 
-## Installation
+## Installation (Conda 🐍)
 
 To get started, ensure that you are using:
 - Conda

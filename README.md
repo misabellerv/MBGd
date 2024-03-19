@@ -52,5 +52,13 @@ The project includes a dataset called MBG, which contains 13 videos filmed by a 
 
 ---
 
-Feel free to add any additional sections or information as needed.
+## Installation
+
+To get started, ensure that you are using a Conda environment with Python 3.8+ and CUDA 11.7+
+
+First, execute the following command in your terminal to install the project dependencies from the `requirements.yml` file:
+
+```bash
+conda env create -f requirements.yml
+```
 

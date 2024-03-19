@@ -59,7 +59,15 @@ To get started, ensure that you are using:
 - Python 3.8+
 - CUDA 11.7+
 
-First, execute the following command in your terminal to install the project dependencies from the `requirements.yml` file:
+Clone this repo to your machine using:
+```bash
+git clone https://github.com/misabellerv/Mosquitoes.git
+```
+Using your bash/prompt command access the Mosquitoes folder:
+```bash
+cd Desktop/Mosquitoes
+```
+Execute the following command in your terminal to install the project dependencies from the `requirements.yml` file:
 
 ```bash
 conda env create -f requirements.yml

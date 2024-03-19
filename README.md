@@ -18,23 +18,22 @@ This project is currently under construction, and there is no framework yet for 
 ## MBG Dataset
 The project includes a dataset called MBG, which contains 13 videos filmed by a DJI Phantom Vision 4 PRO UAV drone in Rio de Janeiro. The table below provides details about each video in the dataset:
 
-| Video Name            | Altitude       | Duration | Number of Frames | Resolution | Terrain Type    |
+| Video Name            | Altitude (m)      | Duration | Number of Frames | Resolution | Terrain Type    |
 |-----------------------|----------------|----------|------------------|------------|-----------------|
-| video01               |  10  | 02:32    | 7328             | 3840       | Low grass       |
-| video02               | 15  | 00:23    | 1128             | 3840       | Grass and asphalt |
-| video03               | 40 | 03:44 | 10749      | 3840       | Grass, asphalt, and buildings |
-| video04               |  15     | 02:06    | 6076             | 3840       | Grass and asphalt |
-| video05               | 10 | 00:41  | 1970             | 3840       | Vacant lot      |
-| video06               |   16         | 01:15    | 3602             | 3840       | Vacant lot      |
-| video07               |    20  | 03:07    | 8988             | 3840       | Vacant lot      |
-| video08               | 10 | 01:37 | 4672         | 3840       | Vacant lot      |
-| video09               |  40 | 02:41    | 7721             | 3840       | Grass, asphalt, and buildings |
-| video10               |    40  | 05:27    | 7858             | 4096       | Urban area      |
-| video11               |     40 | 05:27    | 7854             | 4096       | Urban area      |
-| video12               |       40   | 04:33    | 6570             | 4096       | Urban area      |
-| video13               |         40  | 03:30    | 5046             | 4096       | Urban area      |
+| video01               |  10  | 02:32    | 7328             | 3840x2160      | Low grass       |
+| video02               | 15  | 00:23    | 1128             | 3840x2160       | Grass and asphalt |
+| video03               | 40 | 03:44 | 10749      | 3840x2160       | Grass, asphalt, and buildings |
+| video04               |  15     | 02:06    | 6076             | 3840x2160       | Grass and asphalt |
+| video05               | 10 | 00:41  | 1970             | 3840x2160       | Vacant lot      |
+| video06               |   16         | 01:15    | 3602             | 3840x2160       | Vacant lot      |
+| video07               |    20  | 03:07    | 8988             | 3840x2160       | Vacant lot      |
+| video08               | 10 | 01:37 | 4672         | 3840x2160       | Vacant lot      |
+| video09               |  40 | 02:41    | 7721             | 3840x2160       | Grass, asphalt, and buildings |
+| video10               |    40  | 05:27    | 7858             | 4096x2160       | Urban area      |
+| video11               |     40 | 05:27    | 7854             | 4096x2160       | Urban area      |
+| video12               |       40   | 04:33    | 6570             | 4096x2160       | Urban area      |
+| video13               |         40  | 03:30    | 5046             | 4096x2160       | Urban area      |
 
-Please note that the values in the "Altitude", "Duration", and "Terrain Type" columns are subject to correction.
 
 ---
 

@@ -4,6 +4,15 @@
 The MBG detection project is an ongoing work by several computer vision and signal processing researchers from the Federal University of Rio de Janeiro, with contributions from CEFET. It is currently funded by CAPES through master's and doctoral scholarships.
 This project involves the detection of breeding grounds for mosquitoes using aerial footage collected by a DJI Phantom Vision 4 PRO UAV drone in Rio de Janeiro. Some videos were filmed in real urban areas, while others were produced by students in low grass fields, with tires randomly placed within reach of the drone.
 
+## The team 👥
+- Isabelle Melo (me), Msc. Student at Federal University of Rio de Janeiro
+- Mila Rodrigues, Msc. Student at Federal University of Rio de Janeiro
+- Wesley Passos, Phd. Student at Federal University of Rio de Janeiro
+- João Paulo Rangel, Undergraduate Student at Federal University of Rio de Janeiro
+- Kauan Moura, Undergraduate Student at Federal University of Rio de Janeiro
+- Eduardo Antônio, Professor at Federal University of Rio de Janeiro
+- Sergio Lima, Professor at Federal University of Rio de Janeiro
+
 ## Diseases Transmitted by Mosquitoes
 Mosquitoes are vectors for various diseases, including:
 - **Dengue Fever**: A mosquito-borne viral infection causing severe flu-like symptoms.

@@ -54,11 +54,30 @@ The project includes a dataset called MBG, which contains 13 videos filmed by a 
 
 ## Installation
 
-To get started, ensure that you are using a Conda environment with Python 3.8+ and CUDA 11.7+
+To get started, ensure that you are using:
+- Conda
+- Python 3.8+
+- CUDA 11.7+
 
 First, execute the following command in your terminal to install the project dependencies from the `requirements.yml` file:
 
 ```bash
 conda env create -f requirements.yml
 ```
-
+Once the installation is complete, activate the mosquitoes environment with the following command:
+```bash
+conda activate mosquitoes
+```
+Next, install PyTorch with CUDA 11.7 specifically by running the following command:
+```bash
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+```
+After that, install the NNI library using the command:
+```bash
+pip install nni
+```
+Finally, install Detectron2 in development mode:
+```bash
+python -m pip install -e codes/detectron2
+```
+With these steps completed, the environment will be configured and ready for use!

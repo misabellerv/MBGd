@@ -19,8 +19,9 @@ Mosquitoes are vectors for various diseases, including:
 - **Zika Virus**: Transmitted primarily by Aedes mosquitoes, causing mild symptoms but severe birth defects if contracted during pregnancy.
 - **Malaria**: Caused by Plasmodium parasites transmitted through the bites of infected Anopheles mosquitoes.
 
-![Aedes Aegypti Mosquitoe](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=400&h=220&crop=1)
-*Caption: Aedes Aegypti Mosquito*
+| ![mosquitoes.jpg](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=1220&h=674&crop=1) | 
+|:--:| 
+| *Aedes Aegypti Mosquitoe* |
 
 
 ## Project Status

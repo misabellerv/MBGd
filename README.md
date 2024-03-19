@@ -23,6 +23,8 @@ Mosquitoes are vectors for various diseases, including:
 |:--:| 
 | *Aedes Aegypti Mosquitoe* |
 
+In Brazil, there is a serious challenge in containing diseases caused by mosquitoes, and every year during warmer seasons is when they reproduce the most, leading to significant harm to the population: https://veja.abril.com.br/saude/cidade-de-sao-paulo-deve-decretar-emergencia-por-epidemia-de-dengue
+
 
 
 ## Project Status

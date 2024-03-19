@@ -18,7 +18,7 @@ Mosquitoes are vectors for various diseases, including:
 - **Dengue Fever**: A mosquito-borne viral infection causing severe flu-like symptoms.
 - **Zika Virus**: Transmitted primarily by Aedes mosquitoes, causing mild symptoms but severe birth defects if contracted during pregnancy.
 - **Malaria**: Caused by Plasmodium parasites transmitted through the bites of infected Anopheles mosquitoes.
-  ![Alt text](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=1220&h=674&crop=1 "Aedes Aegypti Mosquitoe" =50%x)
+  ![Alt text](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=1220&h=674&crop=1 "Aedes Aegypti Mosquitoe" =250x)
 
 The danger of Dengue fever is particularly acute in peripheral areas, where stagnant water and poor sanitation provide ideal breeding grounds for mosquitoes. Using artificial intelligence can facilitate the work of health agents in detecting these breeding grounds and implementing preventive measures. In the beggining of 2024 there has been an outbreak of Dengue and the best strategy to contain the disease is preventing : https://www.cnnbrasil.com.br/nacional/rio-de-janeiro-confirma-sexta-morte-por-dengue-em-2024/ .
 

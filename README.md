@@ -20,7 +20,8 @@ Mosquitoes are vectors for various diseases, including:
 - **Malaria**: Caused by Plasmodium parasites transmitted through the bites of infected Anopheles mosquitoes.
 
 ![Aedes Aegypti Mosquitoe](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/aedes-aegypti.jpg?w=400&h=220&crop=1)
-*Aedes Aegypti Mosquitoe*
+*Caption: Aedes Aegypti Mosquito*
+
 
 ## Project Status
 This project is currently under construction, and there is no framework yet for the detection of all objects. The main focus of this repository is the detection of tires, which are common breeding grounds for mosquitoes.

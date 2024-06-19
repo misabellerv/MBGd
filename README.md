@@ -44,9 +44,34 @@ nohup bash training_mosquitoes.sh > train+test.log 2>&1 &
 You can acess model's loss curves by running `notebooks/stop_criterion.ipynb`. Please, don't forge to change system path to your local path:
 ```python
 import sys
-sys.path.append(YOUR_PATH_HERE)
+sys.path.append(<your_path_here>)
 from codes.stop_criterion import plot_loss
 ...
 ```
+To run a single fold, just run:
+```python
+import sys
+sys.path.append(<your_path_here>)
+from codes.stop_criterion import plot_fold
 
+root = <output_folder_path> 
+model = <model_name> # string 
+obj = <object> # string
+fold = <fold_number> # int
+
+plot_fold(root, model, obj, fold)
+```
+If you want to run 2 or more folds, you can do:
+```python
+import sys
+sys.path.append(<your_path_here>)
+from codes.stop_criterion import plot_loss
+
+root = <output_folder_path> 
+model = <model_name> # string 
+obj = <object> # string
+fold = <number_of_folds> # 2 or more
+
+plot_fold(root, model, obj, fold)
+```
 

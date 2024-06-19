@@ -96,7 +96,7 @@ Let's discuss what each of these flags mean.
     - `OBJECT`: Object of interest for the training dataset (e.g., 'tire').
   - `TEST`: Configuration for testing the model.
     - `TEST_WEIGHTS`: Path to the saved model weights used for testing.
-    - `OUTPUT_DIR`: Directory path for saving test outputs (e.g., predictions, evaluation results).
+    - `OUTPUT_DIR`: Directory path for saving test outputs (e.g., predictions, evaluation results). Recommended: `outputs/model_name/experiment_name`. 
     - `FILTER_EMPTY_ANNOTATIONS`: Boolean indicating whether to use filtering of empty annotations. If set `True`, your validation set will not take into account frames/images that have no objects of interest (empty annotations). If set `False`, the validation set uses all frames/images in the workflow.
   - `AUGMENTATION`: Configuration for data augmentation.
     - `ENABLE`: Boolean indicating whether data augmentation is enabled (True) or not (False).

@@ -11,6 +11,7 @@ In progress...
 ### Requirements
 - CUDA 11.8+
 - Python 3.8+
+- Conda
 - Linux system to run bash script files
 
 Check if you have the necessary requirements and run the following command:

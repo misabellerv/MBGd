@@ -1,4 +1,5 @@
-# Mosquitoes Breeding Grounds Detector 🦟🔎
+![MBGd](https://github.com/misabellerv/Mosquitoes/assets/88784791/67e197d0-3b8f-4144-b88d-cee1a46fa343)
+
 
 ## About the Project
 In progress...

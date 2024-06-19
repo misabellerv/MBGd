@@ -1,5 +1,11 @@
 # Mosquitoes Breeding Grounds Detector 🦟🔎
 
+## About the Project
+In progress...
+
+## Repo structure
+In progress...
+
 ## Installation
 
 ### Requirements
@@ -29,7 +35,23 @@ pip install nni scikit-image
 ```
 Check if your detectron2 version is 0.6+. 
 
-## Running the project
+## MBGd dataset
+In progress...
+
+## Research Methodology
+In progress...
+
+## Training and Validation Split
+In progress...
+
+## Results
+In progress...
+
+## Configuration File
+In progress...
+
+
+## Running the Project
 
 ### Training + Validation:
 Go to `configs/config.yaml` and change `JSON_PATH` and `FRAMES_PATH` paths to your local paths. 

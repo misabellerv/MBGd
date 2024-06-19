@@ -1,0 +1,45 @@
+MODELS:
+  FASTER_RCNN_R_50_FPN_1X:
+    _BASE_: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_1x/Base-RCNN-FPN.yaml"
+    MODEL:
+      WEIGHTS: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_1x/137257794/model_final_b275ba.pkl"
+      MASK_ON: False # True or False
+      RPN:
+        PRE_NMS_TOPK_TRAIN: 600
+        PRE_NMS_TOPK_TEST:  300
+        POST_NMS_TOPK_TRAIN: 50
+        POST_NMS_TOPK_TEST: 50
+        NMS_THRESH: 0.7
+      RESNETS:
+        DEPTH: 50
+      ROI_BOX_HEAD:
+        POOLER_SAMPLING_RATIO: 0
+        POOLER_RESOLUTION: 7
+      BACKBONE:
+        FREEZE_AT: 2
+      ROI_HEADS:
+        NUM_CLASSES: 1
+REGISTER_DATASETS:
+  JSON_PATH: "/home/isabelle.melo/proc/Mosquitoes/dataset/v2/coco_json_folds/5folds/40m/" # Path to COCO JSON files
+  FRAMES_PATH: "/home/isabelle.melo/proc/Mosquitoes/dataset/v2/frames/" # Path to frames files
+  FOLDS: 5
+  OBJECTS: ["tire"] # ["tire", "watertank"]
+TRAINING:
+  VAL_PERIOD: 1
+  TRAINING_NUM_WORKERS: 4
+  BATCH_SIZE_PER_IMAGE: 32
+  IMAGES_PER_BATCH: 4
+  PATIENCE: 600
+  MAX_ITER: 3000
+  MIN_DELTA: 0.019
+  LEARNING_RATE: 0.002
+  WEIGHT_DECAY: 0.0001
+  STEPS: [] # [initial_step, final_step]
+  CUDA_DEVICE: 0
+  MODEL_NAME: 'faster_rcnn_R_50_FPN_1x'
+  OBJECT: 'tire' # 'tire', 'watertank'
+TEST:
+  TEST_WEIGHTS: "model_early_stopping.pth"
+  OUTPUT_DIR: "outputs/faster_rcnn_R_50_FPN_1x/v2_tire_40m_5folds_flag_True_aug" # outputs/model_name/experiment_name
+AUGMENTATION:
+  ENABLE: True # True or False

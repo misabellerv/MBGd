@@ -9,7 +9,7 @@ In progress...
 ## Installation
 
 ### Requirements
-- CUDA 11.8 or higher
+- CUDA 11.8+
 - Python 3.8+
 - Linux system to run bash script files
 

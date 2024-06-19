@@ -1,4 +1,5 @@
-![MBGd](https://github.com/misabellerv/Mosquitoes/assets/88784791/67e197d0-3b8f-4144-b88d-cee1a46fa343)
+![MBGd](https://github.com/misabellerv/Mosquitoes/assets/88784791/d784e854-210e-4855-a25c-59c5018b9fa7)
+
 
 
 ## About the Project

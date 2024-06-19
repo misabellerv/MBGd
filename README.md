@@ -1,10 +1,13 @@
 ![MBGd](https://github.com/misabellerv/Mosquitoes/assets/88784791/6d962591-92ea-4e1a-a66b-a2db7916c05e)
 
-Mosquitoes Breeding Grounds Detector (MBGd) is a project that aims to find optimized solutions for mosquitoes breeding sites detection and analysis through aerial images and small datasets.
+Mosquitoes Breeding Grounds Detector (MBGd) is a project that implements optimized solutions for mosquitoes breeding sites detection and analysis through aerial images and small datasets.
 It currently uses Detectron2 to train models as Faster-RCNN in out custom dataset with a proper methodology to get better baseline results.
+It's a long-time work that has been developed by several Master/PhD students along with Federal University of Rio de Janeiro professors from Signal, Multimidia and Telecomunications lab (SMT).
 
-## Repo structure
-In progress...
+This repository focuses specifically on my Master's thesis work, which comprises of a robust methodology for mosquitoes breeding sites using unnamed aerial vehicles (UAV) and deep computer vision techniques. 
+
+![Captura de Tela (325)](https://github.com/misabellerv/Mosquitoes/assets/88784791/191cd0a3-1d42-438f-bdf6-e80e50870fbd)
+
 
 ## Installation
 

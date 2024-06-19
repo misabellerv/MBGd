@@ -103,7 +103,7 @@ Let's discuss what each of these flags mean.
 
 ## Running the Project
 
-### Training + Validation:
+### Training and Evaluation:
 Go to `configs/config.yaml` and change `JSON_PATH` and `FRAMES_PATH` paths to your local paths. 
 
 They must point to where your COCO JSON and data frames are located.

@@ -54,16 +54,9 @@ In more general words, this file allows you to store multiple model's configurat
 
 Let's discuss what each of these flags mean.
 
-- `MODELS`: stores detectron2 models. You can have multiple models inside `MODELS`. Here is an example:
-```yaml
-MODELS:
-  FASTER_RCNN_R_50_FPN_1X:
-    _BASE_: "detectron2://COCO-Detection/faster_rcnn_R_50_FPN_1x/Base-RCNN-FPN.yaml"
-  ...
-```
-The models' format must match detectron2 default YAML file (such as identation levels and parameters names).
-  - `FASTER_RCNN_R_50_FPN_1X`: The main model used to this research. To more informations, check https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md.
-    - `_BASE_`: Base default YAML path. Check https://github.com/facebookresearch/detectron2/blob/main/configs/Base-RCNN-FPN.yaml to more informations. You can either download it to your local machine or use detectron2 link as in my config file.
+- `MODELS`: stores detectron2 models. You can have multiple models inside `MODELS`. The models' format must match detectron2 default YAML file (such as identation levels and parameters names).
+  - `FASTER_RCNN_R_50_FPN_1X`: The main model used to this research.
+    - `_BASE_`: Base default YAML path. You can either download it to your local machine or use detectron2 link as in my config file.
     - `MODEL`: Sets architecture parameters for this specific model.
       - `WEIGHTS`: Path to the pre-trained weights. You can either download it to your machine or use detectron2 link as in my config file.
       - `MASK_ON`: Boolean indicating whether to enable mask prediction (True) or not (False).

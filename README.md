@@ -1,10 +1,13 @@
 ![MBGd](https://github.com/misabellerv/Mosquitoes/assets/88784791/6d962591-92ea-4e1a-a66b-a2db7916c05e)
 
-Mosquitoes Breeding Grounds Detector (MBGd) is a project that implements optimized solutions for mosquitoes breeding sites detection and analysis through aerial images and small datasets.
-It currently uses Detectron2 to train models as Faster-RCNN in out custom dataset with a proper methodology to get better baseline results.
-It's a long-time work that has been developed by several Master/PhD students along with Federal University of Rio de Janeiro professors from Signal, Multimidia and Telecomunications lab (SMT).
+Welcome to the Mosquitoes Breeding Grounds Detector (MBGd) project repository! This initiative focuses on developing cutting-edge techniques for identifying and analyzing mosquito breeding sites using aerial imagery and compact datasets.
 
-This repository focuses specifically on my Master's thesis work, which comprises of a robust methodology for mosquitoes breeding sites using unnamed aerial vehicles (UAV) and deep computer vision techniques. 
+MBGd employs Detectron2 to train advanced models like Faster-RCNN on our custom dataset. Our approach includes a meticulously crafted methodology aimed at achieving superior baseline results in the detection of mosquito habitats.
+
+This project represents a collaborative effort over several years, involving multiple Master’s and Ph.D. students, alongside esteemed professors from the Signal, Multimedia, and Telecommunications Lab (SMT) at the Federal University of Rio de Janeiro. Their combined expertise has driven significant progress in the detection and analysis capabilities of MBGd.
+
+This repository specifically highlights the work from my Master’s thesis. It details a comprehensive methodology for detecting mosquito breeding sites using Unmanned Aerial Vehicles (UAVs) and sophisticated deep learning computer vision techniques. Our goal is to enhance the precision and efficiency of these detection systems to aid in public health efforts.
+
 
 ![Captura de Tela (325)](https://github.com/misabellerv/Mosquitoes/assets/88784791/191cd0a3-1d42-438f-bdf6-e80e50870fbd)
 

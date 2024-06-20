@@ -119,7 +119,7 @@ chmod +x <full_path_to_training_mosquitoes.sh>
 Now you can run the workflow from the main directory:
 
 ```bash
-nohup bash ./scripts/training_mosquitoes.sh > train+test.log 2>&1 &
+nohup bash scripts/training_mosquitoes.sh > train+test.log 2>&1 &
 ```
 ### Loss curves
 You can acess model's loss curves by running `notebooks/stop_criterion.ipynb`. Please, don't forge to change system path to your local path:

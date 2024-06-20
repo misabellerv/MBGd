@@ -112,9 +112,14 @@ Go to `configs/config.yaml` and change `JSON_PATH` and `FRAMES_PATH` paths to yo
 
 They must point to where your COCO JSON and data frames are located.
 If you want to change parameters and run a more customized model, check **Documentation** (still in progress).
+First, make the bash script executable (because it's inside `scripts` folder):
+```bash
+chmod +x <full_path_to_training_mosquitoes.sh>
+```
+Now you can run the workflow from the main directory:
 
 ```bash
-nohup bash training_mosquitoes.sh > train+test.log 2>&1 &
+nohup bash ./scripts/training_mosquitoes.sh > train+test.log 2>&1 &
 ```
 ### Loss curves
 You can acess model's loss curves by running `notebooks/stop_criterion.ipynb`. Please, don't forge to change system path to your local path:

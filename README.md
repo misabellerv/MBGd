@@ -38,7 +38,7 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
 Install some more libraries:
 ```bash
-pip install nni scikit-image
+pip install nni scikit-image albumentations
 ```
 Check if your detectron2 version is 0.6+. 
 

@@ -119,6 +119,11 @@ First, make the bash script executable (because it's inside `scripts` folder):
 ```bash
 chmod +x <full_path_to_training_mosquitoes.sh>
 ```
+If you are cloning from a Dos to Unix, just run the following command:
+
+```bash
+sed -i 's/\r$//' scripts/training_mosquitoes.sh
+```
 Now you can run the workflow from the main directory:
 
 ```bash
